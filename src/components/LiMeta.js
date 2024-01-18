@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Contador from './Contador';
 import Meta from './Meta';
-import '../estilos/LiMeta.css'
+import '../styles/LiMeta.css'
 
 function LiMetas() {
     const [metas, setMetas] = useState([]);

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../estilos/Meta.css"
+import "../styles/Meta.css"
 function Meta({ nota, onDelete }) {
     
 
