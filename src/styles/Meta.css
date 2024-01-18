@@ -1,0 +1,40 @@
+:root {
+    --verde:rgba(28, 150, 117, 1);
+    
+    --white: #DCDCE5;
+    --sm: 24px;
+}
+
+button {
+    width: 94px;
+    height: 57px;
+    border-radius: 0px,10px,0px,10px;
+    padding: 10px,16px,10px,16px;
+    gap:10px;
+    
+    background-color: var(--verde);
+
+}
+
+.contenedor-nota {
+    background-color: var(--white);
+    display: flex;
+    width: 687px;
+    height:57px;
+    margin: 20px;
+
+}
+
+
+
+
+
+.nota {
+    width: 687px;
+    height:57px;
+padding: 16px;
+border-radius: 10px;
+justify-items: space-between;
+text-align: left;
+
+}

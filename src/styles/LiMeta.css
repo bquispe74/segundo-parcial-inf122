@@ -1,0 +1,49 @@
+.contenedor-principal {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.boton{
+width: 94px;
+height:  57px;
+padding: 10px, 16px, 10px, 16px;
+border-radius: 0px, 10px, 10px, 0px;
+gap: 10px;
+font:Overpass;
+color:var(--white)
+}
+.input {
+    
+    width: 587px;
+    height: 57px;
+    font:Overpass;
+    font-size: 20px;
+    border-radius: 10px,0px,0px,10px;
+    margin-top: 10px;
+    background-color: var(--white);
+    color: black;
+    border: none;
+    padding: 16px,20px,16px,20px;
+    gap:10px;
+    
+}
+.contador{
+    margin: 20px;
+width:334px;
+height:40px;
+padding: 10px, 16px, 10px, 16px;
+border-radius: 10px;
+border: 1px;
+gap: 10px;
+background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+font-family: Overpass;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:var(--verde)
+}
