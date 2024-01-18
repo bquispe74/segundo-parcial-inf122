@@ -1,8 +1,8 @@
 
 import './App.css';
 import { useState } from 'react';
-import Contador from './componentes/Contador';
-import ListaMetas from './componentes/ListaMetas';
+import Contador from './components/Contador';
+import ListaMetas from './components/LiMeta';
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
         <h1 className='titulo'>Mis metas</h1>
-        <ListaMetas />
+        <LiMeta />
         
       </div>
     </div>
