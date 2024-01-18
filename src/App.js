@@ -1,8 +1,6 @@
 
 import './App.css';
-import { useState } from 'react';
-import Contador from './components/Contador';
-import ListaMetas from './components/LiMeta';
+import LiMeta from './components/LiMeta';
 
 function App() {
   
